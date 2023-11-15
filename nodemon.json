@@ -1,0 +1,5 @@
+{
+  "watch": ["./lessons"],
+  "ext": "ts,json,js",
+  "ignore": []
+}

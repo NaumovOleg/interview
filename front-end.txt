@@ -1,0 +1,60 @@
+
+1) DOM, Shadow DOM; BOM 
+  document object  model , browser object model( location navigator screen history)
+
+2) Еvent bubbling
+   Event target , this, 
+   Зупинити  підняття  
+   event.stopPropagation()
+   event.stopImmediatePropagation()
+   фаза занурення elem.addEventListener(..., {capture: true})
+   event.eventPhase
+
+3) Події  користувача
+  let event = new Event("click");
+  elem.dispatchEvent(event);
+4) Як  знайти  певний  елемент
+
+5)Різниця  між local sessionStorage coockie 
+
+6) Життєвий  цикл  сторінки 
+   document DOMContentLoaded
+   window,onload
+   window.onunload
+   Що  виконаєтсья спочатку DOMContentLoaded чи  сам скріпт 
+   і  чому ?
+
+7) async defer скріпти 
+    defer загружати  скріпт на фоні виконується по  порядку
+      до DOMContentLoaded  
+    async абсолютно асинхронний
+
+8) xss атаки
+9) I frame .Чи  можна отримати  доступ  до  контенту фрейма. 
+   Політика  однакового  джерела
+10) Як захистити фрейм від редагувань (attribute sandbox)
+11) Спілкування між  вікнами 
+    window.postMessage, window.addEventListener('message')
+12) Чи можна  створювати  свої  кастомні теги 
+13) Що таке  веб воркери і  чи  можуть  вони  маніпулювати DOM
+14) Як відслідкувати  за зміною в  DOM дереві. MutationObserver
+
+
+
+
+
+
+
+candidate is well oriented in  javascript  core  
+concepts, had  practice  with almost  all js "topics".
+Has some gaps in  additional  front-end topics ( iframes )
+but is  aknowledged in some  advanced - like web-workers
+
+
+The candidate demonstrates a strong grasp of core JavaScript
+ concepts and has practical experience with a wide 
+ range of JavaScript topics. While his knowledge is
+  comprehensive, he do have some gaps in additional
+   front-end areas, particularly in dealing with iframes.
+    However, ру demonstrated knowledge in more advanced areas, 
+    such as web workers.
