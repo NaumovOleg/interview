@@ -29,28 +29,28 @@ console.log(arr, arr.name);
 // 	ізоляції даних, приватних змінних та створення функцій зі спільним станом.
 
 {
-  const foo = () => {
-    console.log(foo);
+  const func = () => {
+    console.log(func);
   };
-  foo();
+  func();
 
   // ------------------
-  let logNumber = "one";
+  let text = "one";
   function log() {
-    console.log(logNumber);
+    console.log(text);
   }
-  logNumber = "two";
+  text = "two";
   log();
   //two
 
   // -------------------
   function logger() {
-    let logNumber = "one";
+    let text = "one";
     return function () {
-      console.log(logNumber);
+      console.log(text);
     };
   }
-  let logNumber = "two";
+  let text = "two";
   const runLog = logger();
   runLog();
   //one
@@ -193,7 +193,6 @@ console.log(obj.prop);
 // false
 
 // =======27) Що виведе  console.log({}) і  чому  {}.__proto__ === Object.prototype
-
 // =======28) Як в  промізах  спіймати  ерорку (3 способи)
 // =======29) Як виконати  код  незалежно  від  ерорки  чи  респонсу
 // =======30) Що  буде  якщо  елемент Promise.all Завершится  помилкою

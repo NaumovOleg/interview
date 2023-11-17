@@ -109,7 +109,6 @@ fsPromises.rename(oldPath, newPath)
 7) Для  чого  є  флаг  captureRejections 
   Для  асинхронник  колбеків  евентів . Навішуєж  then на  хендлер 
   ee2[Symbol.for("nodejs.rejection")] = () => {
-    console.log("dddd");
   };
 8) Як  видалити  ліснер 
     myEmitter.removeAllListeners("event");
@@ -133,7 +132,7 @@ fsPromises.rename(oldPath, newPath)
 5)Як  можна  комуныкувати мыж parent and child processes in Node.js?
     Communication between parent and child processes can be achieved 
     using inter process communication (IPC), which involves sending
-     messages via the send method and listening for messages using the message event.
+    messages via the send method and listening for messages using the message event.
 6)Що таке  "stdio" в  контексті child processes.
 "stdio" stands for standard input/output. Child processes can share
  their standard input, output, and error streams with the parent process.
